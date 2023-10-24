@@ -11,7 +11,7 @@ During this lab you will learn how to create and schedule a Job in a Azure Datab
 
 <img src="Lab04_01.jpg" alt="Click on Create a Resource" width="800"/>
 
-2 - Click on browse, select the file *UpdateFakeTable.ipynb* and click on import
+2 - Click on browse, select the file [UpdateFakeTable.ipynb](./UpdateFakeTable.ipynb) and click on import
 
 <img src="Lab04_02.jpg" alt="Click on Create a Resource" width="500"/>
 
