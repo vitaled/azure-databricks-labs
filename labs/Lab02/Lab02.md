@@ -30,8 +30,6 @@ Provide the following values:
 | Max Worker                                               | Maximum number of worker when autoscaling enabled                                      | 2                |
 | Enable autoscaling                                       | Enable or not enable the autoscaling feature                                           | Yes              |
 | Terminate after                                          | Number of minutes in idle state before automatically terminating the cluster           | 60               |
-| Enable Credential Passthrough for user-level data access | Enable or not enable the credential passthrough                                        | Yes              |
-|                                                          |
 
 Click on **Create a Cluster**
 
