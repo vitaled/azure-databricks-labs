@@ -41,7 +41,7 @@ and click on **Shift + Run**
 
 ```sql
 %sql
-SHOW DATABASE
+SHOW DATABASES
 ```
 
 The output of this command should only show the dafault database.
