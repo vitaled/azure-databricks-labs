@@ -1,4 +1,4 @@
-# Azure Databricks labs
+# Azure Databricks/Synapse Labs
 
 ## List of labs
 
