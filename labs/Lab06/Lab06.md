@@ -6,4 +6,4 @@ Write your first SparkSQL code
 
 ### Task 1
 
-Import the dbc file [Lab06.dbc](./Lab06.dbc) into your workspace and execute the code inside the notebook
+Import the SQL file [Lab06.sql](./Lab06.sql) into your workspace and execute the code inside the notebook
