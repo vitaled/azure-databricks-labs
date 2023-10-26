@@ -189,7 +189,7 @@ GROUP BY origin, destination
 -- COMMAND ----------
 
 SELECT origin,destination,AVG(delay)
-FROM departure_delays
+FROM test.departure_delays
 WHERE delay > 0
 GROUP BY origin, destination
 ORDER BY AVG(delay) DESC
@@ -209,7 +209,7 @@ ORDER BY AVG(delay) DESC
 -- COMMAND ----------
 
 SELECT *, CONCAT(origin,'-',destination) AS itinerary
-FROM departure_delays
+FROM test.departure_delays
 
 -- COMMAND ----------
 
