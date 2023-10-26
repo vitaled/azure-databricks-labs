@@ -21,7 +21,7 @@ SHOW DATABASES
 
 -- MAGIC %md
 -- MAGIC ### DROP TABLE
--- MAGIC When you execute the `DROP TABLE` command, you are instructing SparkSQL to permanently delete a single table along with all the data it contains. With `IF EXISTS` If the table does not exist, no action is taken, ensuring that the command doesn't result in errors. 
+-- MAGIC When you execute the `DROP TABLE` command, you are instructing SparkSQL to permanently delete a single table. With `IF EXISTS` If the table does not exist, no action is taken, ensuring that the command doesn't result in errors. 
 -- MAGIC
 
 -- COMMAND ----------
