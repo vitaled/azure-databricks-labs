@@ -1,6 +1,7 @@
 # Lab 11: Creating a Dedicated SQL Pool
 
-## Goal 
+## Goal
+
 During this lab you will learn how to create a dedicated sql pool in Synapse through the *Synaose Studio UI*
 
 ## Tasks
@@ -13,13 +14,13 @@ In the Azure Synapse Studio UI click on **Manage** in the left-sided menu
 
 <img src="Lab11_01.jpg" alt="Click on Manage" width="500"/>
 
-In the *Manage* section click on *SQL Pools* and then on **+ New** 
+In the *Manage* section click on *SQL Pools* and then on **+ New**
 
 Search for *Azure Synapse Analytics* in the search form and press enter
 
 <img src="Lab11_02.jpg" alt="Search for Azure Synapse Analytics" width="500"/>
 
-In the creation wizard provide the following details 
+In the creation wizard provide the following details
 
 <img src="Lab11_03.jpg" alt="Click on create" width="500"/>
 
@@ -30,7 +31,7 @@ In the creation wizard provide the following details
 
 then click on **Review + Create**
 
-In the next page: 
+In the next page:
 
 <img src="Lab11_04.jpg" alt="Finished deployment" width="500"/>
 
