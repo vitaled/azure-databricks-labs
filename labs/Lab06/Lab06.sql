@@ -227,7 +227,7 @@ FROM test.departure_delays
 -- COMMAND ----------
 
 SELECT *, delay/60 AS delay_in_hours
-FROM departure_delays 
+FROM test.departure_delays 
 WHERE delay > 0
 
 -- COMMAND ----------
