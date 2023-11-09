@@ -27,7 +27,7 @@ To run code in the notebook we need to connect it to a cluster.
 
 <img src="Lab03_04.jpg" alt="Select a cluster" width="800"/>
 
-### Task 2: Write some code in your noebook
+### Task 2: Write some code in your notebook
 
 1 - In the first block write the following python command to print the string "Hello World":
 
