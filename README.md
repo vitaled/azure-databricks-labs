@@ -2,5 +2,5 @@
 
 ## List of labs
 
-- [Labs Classic Version](Labs/classic_version/README.md)
-- [Labs Unity Catalog Version](Labs/unity_version/README.md)
+- [Labs Classic Version](labs/classic_version/README.md)
+- [Labs Unity Catalog Version](labs/unity_version/README.md)
