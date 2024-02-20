@@ -3,7 +3,7 @@ DROP CATALOG IF EXISTS sandbox CASCADE;
 
 -- COMMAND ----------
 
-SET `storage.account.name`=`staadbmeta001`
+SET `storage.account.name`=`<INSERT THE NAME OF YOUR STORAGE ACCOUNT>`
 
 -- COMMAND ----------
 
@@ -13,17 +13,17 @@ SET `storage.account.name`=`staadbmeta001`
 
 -- COMMAND ----------
 
-DROP EXTERNAL LOCATION raw_external_location;
+DROP EXTERNAL LOCATION IF EXISTS raw_external_location;
 CREATE EXTERNAL LOCATION raw_external_location
 URL 'abfss://raw@${storage.account.name}.dfs.core.windows.net/'
- WITH (STORAGE CREDENTIAL `${storage.credential.name}`);
+WITH (STORAGE CREDENTIAL `${storage.credential.name}`);
 
 -- COMMAND ----------
 
-DROP EXTERNAL LOCATION export_external_location;
- CREATE EXTERNAL LOCATION export_external_location
- URL 'abfss://export@${storage.account.name}.dfs.core.windows.net/'
- WITH (STORAGE CREDENTIAL  `${storage.credential.name}`);
+DROP EXTERNAL LOCATION IF EXISTS export_external_location;
+CREATE EXTERNAL LOCATION export_external_location
+URL 'abfss://export@${storage.account.name}.dfs.core.windows.net/'
+WITH (STORAGE CREDENTIAL  `${storage.credential.name}`);
 
 -- COMMAND ----------
 
